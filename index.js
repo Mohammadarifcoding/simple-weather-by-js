@@ -30,8 +30,6 @@ const search = () =>{
   const inputLocation = document.getElementById('inputLocation')
   const searchValue = inputLocation.value;
   inputLocation.value = ''
-  const content = document.getElementById('content')
-  content.value = ''
   loaddata(searchValue)
 
   
