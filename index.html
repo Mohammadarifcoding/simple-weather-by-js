@@ -1,0 +1,51 @@
+              
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <title>Weather Card</title>
+    </head>
+    <body class="bg-gray-100">
+        <header class="bg-blue-500 p-4">
+            <nav class="container mx-auto flex justify-between items-center">
+                <h1 class="text-white text-2xl font-semibold">Weather App</h1>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="text-white hover:text-gray-300">Home</a></li>
+                    <li><a href="#" class="text-white hover:text-gray-300">About</a></li>
+                    <li><a href="#" class="text-white hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <div id="container" class="container mx-auto mt-8 p-8 bg-white rounded-md shadow-md">
+            <div class="mb-4">
+                <label for="location" class="block py-3 text-gray-600 font-bold">Search Location</label>
+                <div class="relative rounded-md shadow-sm">
+                    <input id="inputLocation" type="text" class="px-3 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500  transition duration-300 ease-in-out" placeholder="Search...">
+                    <button id="Search" onclick="search()" class="bg-blue-500 hover:bg-blue-600 focus:bg-blue-600 text-white font-semibold px-4 py-2 rounded-md transition duration-300 ease-in-out focus:ring focus:ring-blue-300 focus:ring-opacity-50">Search</button>
+                </div>
+            </div>
+
+            
+            <div id="content">
+
+            </div>
+            <!-- <h1 class="text-xl font-semibold mb-2">Weather in <span class="text-blue-500">Location Name</span></h1>
+            <p class="text-gray-600 font-bold">Country: <span class="font-semibold">Country</span></p>
+            <p class="text-gray-600 font-bold" >Local Time: <span class="font-semibold">Local Time</span></p>
+            <p class="text-4xl font-semibold mt-4">Temp: <span class="text-blue-500">Temp°C</span></p>
+            <img class="flex ml-10 mb-2" src="https://cdn.weatherapi.com/weather/64x64/day/143.png" alt="">
+            <p class="text-gray-600 font-bold">Wind Speed: <span class="font-semibold">Wind mph</span></p>
+            <p class="text-gray-600 font-bold">Humidity: <span class="font-semibold">Humidity</span></p>
+            <p class="text-gray-600 font-bold">Cloud: <span class="font-semibold">Cloud</span></p> -->
+        </div>
+    
+        <footer class="bg-blue-500 p-4 mt-20 text-center text-white">
+            <p>&copy; 2023 Weather App</p>
+            <p>Made by <span class="text-green-500">Arif & konix</span></p>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+    </html>
