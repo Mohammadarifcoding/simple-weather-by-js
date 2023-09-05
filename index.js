@@ -1,4 +1,4 @@
-const loaddata = async(place='singapur') =>{
+const loaddata = async(place='dhaka') =>{
   const res = await fetch(`https://api.weatherapi.com/v1/current.json?key=23fee447520245119a443437230409&q=${place}&aqi=no`)
   const json = await res.json()
   displayData(json)
